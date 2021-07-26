@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kő-Papír-Olló</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>Kő-Papír-Olló</h1>
+    <div class="eredmenyjelzo">
+        <p id="felhasznalopont">Győzelem: 0</p>
+        <p id="döntetlenpont">Döntetlen: 0</p>
+        <p id="számítógéppont">Vereség: 0</p>
+    </div>
+
+    <div class="választások">
+        <div class="választás" id="kő">
+            <img src="images/rock.png" alt="">
+        </div>
+        <div class="választás" id="papir">
+            <img src="images/paper2.png" alt="">
+        </div>
+        <div class="választás" id="olló">
+            <img src="images/scissors2.png" alt="">
+        </div>
+
+    </div>
+
+    <div class="képek">
+        <p class="kép" id="felhasznaloválasztás"></p>
+        <div class="kép" id="ikon">
+            <p></p>
+        </div>
+        <p class="kép" id="számítógépválasztás"></p>
+    </div>
+
+
+    <div class="eredmeny">
+        <p></p>
+    </div>
+
+    <div class="container">
+        <div id="ujra" class="flex center">
+            <button onclick="window.location.reload()">Újra</button>
+        </div>
+    </div>
+
+
+
+    <script src="index.js"></script>
+
+</html>
